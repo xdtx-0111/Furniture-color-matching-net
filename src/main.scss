@@ -1,0 +1,53 @@
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+
+}
+
+* {
+  user-select: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+a {
+  text-decoration: none;
+  color: #eeeeee;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+li {
+  list-style: none;
+}
+
+input {
+  border: 0 none;
+  outline: none;
+}
+
+img {
+  border: 0 none;
+  vertical-align: middle;
+}
+
+
+
+
+body {
+  font: 12px/100% "幼圆";
+}
+
+
+#app {
+  height: 100%;
+}
